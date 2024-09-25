@@ -1,0 +1,177 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+.area{
+               text-align: center;
+               width: 100%;
+               font-weight: bold;
+               font-size: larger;
+}
+.switch-field {
+               background-color: #dae0e6;
+               background: rgba(232, 235, 238, 0.5);
+	display: flex;
+	margin-bottom: 36px;
+	overflow: hidden;
+}
+.area{
+               background-color: #dae0e6;
+               background: rgba(232, 235, 238, 0.5);
+}
+.switch-field input {
+               
+	position: absolute !important;
+	clip: rect(0, 0, 0, 0);
+	height: 1px;
+	width: 1px;
+	border: 0;
+	overflow: hidden;
+}
+
+.switch-field label {
+               
+	text-shadow: #2c3e50;
+	color: rgba(0, 0, 0, 0.6);
+	font-size: 14px;
+	line-height: 3;
+               width: 50px;
+	text-align: center;
+	padding: 8px 16px;
+	margin-right: -1px;
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.3), 0 1px rgba(255, 255, 255, 0.1);
+	transition: all 0.1s ease-in-out;
+}
+
+.switch-field label:hover {
+	cursor: pointer;
+               background-color: #98bada;
+}
+
+.switch-field input:checked + label {
+	background-color: #54b3e6;
+	box-shadow: none;
+}
+
+.switch-field label:first-of-type {
+	border-radius: 4px 0 0 4px;
+}
+
+.switch-field label:last-of-type {
+	border-radius: 0 4px 4px 0;
+}
+
+.form {
+	max-width: 270px;
+	font-family: "Lucida Grande", Tahoma, Verdana, sans-serif;
+	font-weight: normal;
+	line-height: 1.625;
+	margin: 8px auto;
+	padding-left: 16px;
+	z-index: 2;
+}
+body {
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    ; /* Light gray background for contrast */
+}
+
+h1 {
+    font-family: "Times New Roman", Times, serif; /* Choose a modern sans-serif font */
+    font-size: 2rem; /* Adjust the font size */
+    color: #2c3e50; /* Dark blue color */
+    text-align: center; /* Center the text */
+    margin-top: 10px; /* Remove top margin */
+    margin-bottom: 20px; /* Add some space below the header */
+    padding: 10px; /* Add padding around the text */ 
+    color: rgb(7, 6, 16); /* White text color for contrast */
+    border-radius: 30px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow for depth */
+}
+
+h2 {
+	font-size: 18px;
+	margin-bottom: 8px;
+               text-align: center;
+               color: rgb(6, 5, 16);
+               text-decoration: dotted;
+               border: 0;
+               border-radius: 5px;
+               content: '\f117';
+               font-weight: bold;
+}
+.area{
+               font-family: "Roboto", sans-serif;
+               outline: 0;
+               
+               width: 100%;
+               border: 0;
+               margin: 0 0 10px;
+               padding: 10px;
+               box-sizing: border-box;
+               font-size: 15px;
+               height: 35px;
+               border-radius: 45px;
+               
+}
+
+.location{
+               background-color: #dae0e6;
+               background: rgba(232, 235, 238, 0.5);
+               font-family: "Roboto", sans-serif;
+               outline: 0;
+               width: 100%;
+               border: 0;
+               margin: 0 0 10px;
+               padding: 10px;
+               box-sizing: border-box;
+               font-size: 15px;
+               height: 40px;
+               border-radius: 25px;
+}
+
+.submit{
+               background-color: #dae0e6;
+               background: rgba(232, 235, 238, 0.5);
+               
+               width: 100%;
+               border: 20;
+               margin: 25px 0 10px;
+               box-sizing: border-box;
+               font-size: 15px;
+	height: 55px;
+	text-align: center;
+	border-radius: 25px;
+}
+
+.result{
+		background: #eeebf2;
+		width: 100%;
+		border: 10;
+		margin: 25px 0 10px;
+		box-sizing: border-box;
+		font-size: 15px;
+		height: 35px;
+		text-align: center;
+                              border-radius: 5px;
+}
+
+.img {
+               background: url('./real_estate.jpg');
+	background-repeat: no-repeat;
+               background-size: auto;
+               background-size:100% 100%;
+               /* -webkit-filter: blur(2px);
+               -moz-filter: blur(2px);
+               -o-filter: blur(2px);
+               -ms-filter: blur(2px);
+               filter: blur(px); */
+               position: fixed;
+               width: 100%;
+               height: 100%;
+               top: 0;
+               left: 0;
+               z-index: -1;
+}
+
+body, html {
+               height: 100%;
+}
